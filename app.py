@@ -6,7 +6,7 @@ app = Flask(__name__)
 def message():
     return jsonify(
         service="backend",
-        message="Hello from Backend API",
+        message="Hello from Praveen Backend-end",
         status="success"
     )
 
